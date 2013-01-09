@@ -1,7 +1,7 @@
 # sublimetext_tidyxml
 Formatting XML in Sublime Text 2 using xmllint.
 
-Based upon this blog post: http://www.bergspot.com/blog/2012/05/formatting-xml-in-sublime-text-2-xmllint/
+Based upon a [blog post by André Bergonse](http://www.bergspot.com/blog/2012/05/formatting-xml-in-sublime-text-2-xmllint/).
 
 By default it will pretty format the XML by stripping all whitespaces.
 But it will actually remove formatting in the text nodes, which may not be something you want to do.
@@ -21,9 +21,17 @@ In Windows you need to [download xmllint for Windows](http://code.google.com/p/x
     * To find it, you can open Sublime Text and then: Preferences &rarr; Browse packages...
 1. Clone the git repo into a folder "Tidy XML"
     * `git clone git@github.com:roypa/sublimetext_tidyxml.git "Tidy XML"`
-1. Done, now select XML and press Cmd + K, Cmd + F (OS X)
+1. Done, ready for use
 
-### Problems?
+## Usage
+The command can be found in the menu as __Selection &rarr; Format &rarr; Tidy XML__
 
-If the command is not working, have a look at the status line.
-Any error messages from xmllint will be shown there.
+The shortcut is defined as Cmd+K, Cmd+F (OS X and Linux) and Ctrl+K, Ctrl+F (Windows).
+If you forget the shortcut keys, you will find it in the Command Palette (Shift+Command+P) when typing "Tidy..."
+
+Select the XML content and execute the command.
+
+If no selection is done, it will try to format the whole file.
+The file should then have only XML content, otherwise an error message will be shown in the status line describing the problem.
+
+If `xmllint` is not able to parse the content as XML, an error message will be shown in the status line.
