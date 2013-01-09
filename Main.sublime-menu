@@ -1,0 +1,20 @@
+[
+    {
+        "id": "selection",
+        "caption": "Selection",
+        "children":
+        [
+            {
+                "id": "format",
+                "caption": "Format",
+                "children":
+                [
+                    {
+                        "caption": "Tidy XML",
+                        "command": "tidy_xml_lint"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Tidy XML",
+        "command": "tidy_xml_lint"
+    }
+]
