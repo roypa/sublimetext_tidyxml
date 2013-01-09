@@ -13,6 +13,6 @@ __To install the plugin:__
 
 1. Go to your Sublime Text plugins directory
     * To find it, you can open Sublime Text and then: Preferences &rarr; Browse packages...
-1. Clone the git repo into a folder "Tidy XML":
-   `git clone git@github.com:roypa/sublimetext_tidyxml.git "Tidy XML"`
+1. Clone the git repo into a folder "Tidy XML"
+    * `git clone git@github.com:roypa/sublimetext_tidyxml.git "Tidy XML"`
 1. Done, now select XML and press Cmd + K, Cmd + F (OS X)
