@@ -1,0 +1,9 @@
+{
+    // To make pretty formatted XML, strip whitespaces.
+    // But it will actually remove formatting in the text nodes, which may not be something you want to do
+	"strip-whitespaces": true,
+
+    // Set the indentation string. To use TAB for indentation, use "\t"
+    // Will be set as the environment variable XMLLINT_INDENT when running xmllint.
+    "xmllint-indent": "  "
+}

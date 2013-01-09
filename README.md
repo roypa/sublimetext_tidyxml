@@ -1,7 +1,14 @@
 # sublimetext_tidyxml
-Formatting XML in Sublime Text 2 using xmllint
+Formatting XML in Sublime Text 2 using xmllint.
 
 Based upon this blog post: http://www.bergspot.com/blog/2012/05/formatting-xml-in-sublime-text-2-xmllint/
+
+By default it will pretty format the XML by stripping all whitespaces.
+But it will actually remove formatting in the text nodes, which may not be something you want to do.
+You can disable this behaviour in the settings by setting `"strip-whitespaces": false`.
+
+The indentation is by default set to 2 spaces, as is the default in xmllint.
+Change this in the settings to what you want.
 
 ## Installation
 To be able to use this plugin you need __xmllint__, which is provided by default in OS X and Linux.
